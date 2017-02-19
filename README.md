@@ -68,8 +68,3 @@ python 爬虫小程序，从慕课网学习到的，在此保存
 		标题:<dd class="lemmaWge-lemmaTitle-title"><h1>***</h1></dd>
 		简介:<div class="lemma-summary">***<div>
 	页面编码:UTF-8
-	
-
-
-
-
