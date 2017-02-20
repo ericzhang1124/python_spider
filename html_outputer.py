@@ -16,6 +16,9 @@ class HtmlOutputer(object):
 		font = open('output.html', 'w')
 
 		font.write("<html>")
+		font.write("<head>")
+		font.write('''<meta charset="UTF-8">''')
+		font.write("</head>")
 		font.write("<body>")
 		font.write("<table>")
 		for data in self.datas:

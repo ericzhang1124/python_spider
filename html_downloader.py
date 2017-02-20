@@ -12,5 +12,4 @@ class HtmlDownloader(object):
 
 		if response.status_code != 200:
 			return None
-		print response.content
 		return response.content
