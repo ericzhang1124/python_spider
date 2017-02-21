@@ -35,7 +35,6 @@ class SpiderMain(object):
 			except:
 				print 'craw failed!'
 		self.outputer.output_html() # 输出爬虫结果
-		print self.urls.has_new_url()	
 
 if __name__ == "__main__":
 	root_url = "http://baike.baidu.com/item/Python" # 设置入口url
